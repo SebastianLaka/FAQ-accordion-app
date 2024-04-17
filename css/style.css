@@ -21,8 +21,10 @@ body {
     background-size: cover;
   }
   .main-app .faq-accordion {
-    top: 15%;
-    left: 7.5%;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
     height: 70%;
     width: 85%;
     border-radius: 0.8em;
