@@ -1,0 +1,16 @@
+@use "./reset" as *;
+@use "./colors" as *;
+@use "./font" as *;
+@use "./mixin" as *;
+@media (min-width: 992px) {
+  p {
+    background-color: gren;
+    color: yellow;
+  }
+}
+@media (min-width: 1200px) {
+    p {
+      background-color: blue;
+      color: red;
+    }
+  }

@@ -1,4 +1,10 @@
 @use "./reset" as *;
+@use "./colors" as *;
+@use "./font" as *;
+@use "./mixin" as *;
+@use "./smd" as *;
+@use "./lmd" as *;
+
 body{
     background-color: red;
 }
