@@ -10,7 +10,7 @@ body {
         height: 100svh;
         .graph-area{
             height: 33%;
-            background-color: blue;
+            @include image;
         }
         .white-area{
             background-color: $light-pink;

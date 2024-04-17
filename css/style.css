@@ -15,7 +15,9 @@ body {
   }
   .main-app .graph-area {
     height: 33%;
-    background-color: blue;
+    background-image: url(../images/background-pattern-mobile.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
   }
   .main-app .white-area {
     background-color: hsl(275, 100%, 97%);
