@@ -12,7 +12,14 @@ body {
 @media (min-width: 280px) {
   .main-app {
     height: 100svh;
+  }
+  .main-app .graph-area {
+    height: 33%;
     background-color: blue;
+  }
+  .main-app .white-area {
+    background-color: hsl(275, 100%, 97%);
+    height: 67%;
   }
 }
 @media (min-width: 325px) {

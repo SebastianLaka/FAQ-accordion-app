@@ -8,7 +8,14 @@ body {
 @media (min-width: 280px) {
     .main-app{
         height: 100svh;
-        background-color: blue;
+        .graph-area{
+            height: 33%;
+            background-color: blue;
+        }
+        .white-area{
+            background-color: $light-pink;
+            height: 67%;
+        }
     }
 }
 @media (min-width: 325px) {
