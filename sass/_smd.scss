@@ -6,11 +6,10 @@ body {
   height: 100svh;
 }
 @media (min-width: 280px) {
-  p {
-    background-color: blue;
-    color: red;
-    margin: 1em;
-  }
+    .main-app{
+        height: 100svh;
+        background-color: blue;
+    }
 }
 @media (min-width: 325px) {
     p {
