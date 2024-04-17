@@ -20,9 +20,9 @@ body {
       height: 70%;
       width: 85%;
       border-radius: .8em;
-      background-color: red;
+      background-color: $white;
       position: absolute;
-      
+      z-index: 100;
     }
     .white-area {
       background-color: $light-pink;

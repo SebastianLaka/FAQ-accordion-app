@@ -28,8 +28,9 @@ body {
     height: 70%;
     width: 85%;
     border-radius: 0.8em;
-    background-color: red;
+    background-color: hsl(0, 0%, 100%);
     position: absolute;
+    z-index: 100;
   }
   .main-app .white-area {
     background-color: hsl(275, 100%, 97%);
