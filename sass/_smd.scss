@@ -6,21 +6,32 @@ body {
   height: 100svh;
 }
 @media (min-width: 280px) {
-    .main-app{
-        height: 100svh;
-        .graph-area{
-            height: 33%;
-            @include image;
-        }
-        .white-area{
-            background-color: $light-pink;
-            height: 67%;
-        }
+  .main-app {
+    height: 100svh;
+    position: relative;
+    .graph-area {
+      height: 33%;
+      @include image;
     }
+    .faq-accordion {
+      top: 15%;
+      left: 7.5%;
+      height: 70%;
+      width: 85%;
+      border-radius: .8em;
+      background-color: red;
+      position: absolute;
+      
+    }
+    .white-area {
+      background-color: $light-pink;
+      height: 67%;
+    }
+  }
 }
 @media (min-width: 325px) {
-    p {
-      background-color: blue;
-      color: red;
-    }
+  p {
+    background-color: blue;
+    color: red;
+  }
 }

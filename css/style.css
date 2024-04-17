@@ -12,12 +12,22 @@ body {
 @media (min-width: 280px) {
   .main-app {
     height: 100svh;
+    position: relative;
   }
   .main-app .graph-area {
     height: 33%;
     background-image: url(../images/background-pattern-mobile.svg);
     background-repeat: no-repeat;
     background-size: cover;
+  }
+  .main-app .faq-accordion {
+    top: 15%;
+    left: 7.5%;
+    height: 70%;
+    width: 85%;
+    border-radius: 0.8em;
+    background-color: red;
+    position: absolute;
   }
   .main-app .white-area {
     background-color: hsl(275, 100%, 97%);
