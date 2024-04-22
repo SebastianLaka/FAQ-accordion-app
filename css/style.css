@@ -33,14 +33,8 @@ body {
     z-index: 100;
   }
   .main-app .white-area {
-    background-color: hsl(275, 100%, 97%);
+    background-color: hsl(275, 62%, 92%);
     height: 67%;
-  }
-}
-@media (min-width: 325px) {
-  p {
-    background-color: blue;
-    color: red;
   }
 }
 @media (min-width: 992px) {
