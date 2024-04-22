@@ -2,9 +2,6 @@
 @use "./colors" as *;
 @use "./font" as *;
 @use "./mixin" as *;
-body {
-  height: 100svh;
-}
 @media (min-width: 280px) {
   .main-app {
     height: 100svh;
