@@ -7,7 +7,7 @@
     height: 100svh;
     position: relative;
     .graph-area {
-      height: 33%;
+      height: 35%;
       @include image;
     }
     .faq-accordion {
@@ -20,6 +20,7 @@
       background-color: $white;
       position: absolute;
       z-index: 100;
+      padding: 1.25em;
     }
     .white-area {
       background-color: $light-pink;

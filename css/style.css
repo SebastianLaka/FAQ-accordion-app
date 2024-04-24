@@ -5,17 +5,13 @@
   margin: 0;
 }
 
-body {
-  height: 100svh;
-}
-
 @media (min-width: 280px) {
   .main-app {
     height: 100svh;
     position: relative;
   }
   .main-app .graph-area {
-    height: 33%;
+    height: 35%;
     background-image: url(../images/background-pattern-mobile.svg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -31,6 +27,7 @@ body {
     background-color: hsl(0, 0%, 100%);
     position: absolute;
     z-index: 100;
+    padding: 1.25em;
   }
   .main-app .white-area {
     background-color: hsl(275, 62%, 92%);
@@ -50,5 +47,5 @@ body {
   }
 }
 body {
-  background-color: red;
+  height: 100svh;
 }/*# sourceMappingURL=style.css.map */
