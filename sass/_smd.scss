@@ -21,6 +21,16 @@
       position: absolute;
       z-index: 100;
       padding: 1.25em;
+      @include flex-column;
+      .header-area{
+        @include flex-row;
+        width: 100%;
+        
+        &__header{
+          font-size: $header-size;
+          margin-left: .5em;
+        }
+      }
     }
     .white-area {
       background-color: $light-pink;
