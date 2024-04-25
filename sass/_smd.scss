@@ -25,6 +25,7 @@
       .header-area{
         @include flex-row;
         width: 100%;
+        margin-bottom: .25em;
         &__header{
           font-size: $header-size;
           margin-left: .5em;
@@ -36,7 +37,7 @@
     }
     .white-area {
       background-color: $light-pink;
-      height: 67%;
+      height: 65%;
     }
   }
 }
