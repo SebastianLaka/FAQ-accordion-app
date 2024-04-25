@@ -25,10 +25,12 @@
       .header-area{
         @include flex-row;
         width: 100%;
-        
         &__header{
           font-size: $header-size;
           margin-left: .5em;
+        }
+        .faq-area{
+          @include flex-column;
         }
       }
     }
