@@ -6,6 +6,7 @@
 @mixin flex-column{
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
 }
 @mixin flex-row{
     display: flex;   
