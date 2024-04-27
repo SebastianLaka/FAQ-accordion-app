@@ -14,7 +14,7 @@
       top: 50%;
       left: 50%;
       transform: translate(-50%, -50%);
-      height: 60%;
+      height: 60svh;
       width: 85%;
       border-radius: 0.8em;
       background-color: $white;
@@ -90,7 +90,7 @@
           .accordion-question {
             &__question {
               font-size: 1rem;
-              
+
             }
           }
         }
@@ -106,8 +106,6 @@
           &__content{
             color: $Grayish-purple;
             font-size: 0.875rem;
-        
-            
           }
           .accordion-question {
             &__question {

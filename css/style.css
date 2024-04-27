@@ -21,7 +21,7 @@
     left: 50%;
     -webkit-transform: translate(-50%, -50%);
             transform: translate(-50%, -50%);
-    height: 60%;
+    height: 60svh;
     width: 85%;
     border-radius: 0.8em;
     background-color: hsl(0, 0%, 100%);
@@ -135,10 +135,16 @@
     padding-right: 3.5em;
   }
 }
-@media (min-width: 992px) {
-  p {
-    background-color: gren;
-    color: yellow;
+@media (min-width: 467px) {
+  .main-app .faq-accordion {
+    max-width: 530px;
+  }
+  .main-app .faq-accordion .faq-area .accordion-container__content {
+    padding-right: 0.1em;
+  }
+  .main-app .faq-accordion .faq-area .accordion-container .accordion-question__question {
+    font-size: 1rem;
+    padding-right: 3.5em;
   }
 }
 body {
