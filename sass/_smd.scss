@@ -39,7 +39,9 @@
             @include flex-space-between;
             &__question {
               font-size: 0.75rem;
-              
+            }
+            &__minus-icon{
+              display: none;
             }
           }
         }

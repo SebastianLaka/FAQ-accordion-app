@@ -82,6 +82,9 @@
   .main-app .faq-accordion .faq-area .accordion-container .accordion-question__question {
     font-size: 0.75rem;
   }
+  .main-app .faq-accordion .faq-area .accordion-container .accordion-question__minus-icon {
+    display: none;
+  }
   .main-app .white-area {
     background-color: hsl(275, 62%, 92%);
     height: 65%;
