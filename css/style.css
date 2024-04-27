@@ -69,6 +69,7 @@
             flex-direction: column;
   }
   .main-app .faq-accordion .faq-area .accordion-container .accordion-question {
+    margin: 1em 0;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;

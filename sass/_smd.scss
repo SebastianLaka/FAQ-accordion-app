@@ -36,6 +36,7 @@
         .accordion-container {
           @include flex-column;
           .accordion-question {
+            margin: 1em 0;
             @include flex-space-between;
             &__question {
               font-size: 0.75rem;
