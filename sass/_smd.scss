@@ -36,7 +36,11 @@
         .accordion-container {
           @include flex-column;
           .accordion-question {
-            margin: 1em 0;
+            margin: .75em 0;
+            padding: .5em 0;
+            border: none;
+            font-family: inherit;
+            cursor: pointer;
             @include flex-space-between;
             &__question {
               font-size: 0.75rem;

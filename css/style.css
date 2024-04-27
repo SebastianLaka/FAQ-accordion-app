@@ -69,7 +69,11 @@
             flex-direction: column;
   }
   .main-app .faq-accordion .faq-area .accordion-container .accordion-question {
-    margin: 1em 0;
+    margin: 0.75em 0;
+    padding: 0.5em 0;
+    border: none;
+    font-family: inherit;
+    cursor: pointer;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
