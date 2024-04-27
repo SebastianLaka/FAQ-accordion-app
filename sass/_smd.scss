@@ -40,7 +40,7 @@
             color: $Grayish-purple;
             font-size: 0.75rem;
             line-height: 150%;
-            
+            // display: none;
           }
           .accordion-question {
             margin: 0 0 0.75em 0;
@@ -103,6 +103,12 @@
     .faq-accordion {
       .faq-area {
         .accordion-container {
+          &__content{
+            color: $Grayish-purple;
+            font-size: 0.875rem;
+        
+            
+          }
           .accordion-question {
             &__question {
               font-size: 1rem;
