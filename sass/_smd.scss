@@ -16,22 +16,32 @@
       transform: translate(-50%, -50%);
       height: 70%;
       width: 85%;
-      border-radius: .8em;
+      border-radius: 0.8em;
       background-color: $white;
       position: absolute;
       z-index: 100;
       padding: 1.25em;
       @include flex-column;
-      .header-area{
+      .header-area {
         @include flex-row;
         width: 100%;
-        margin-bottom: .25em;
-        &__header{
+        margin-bottom: 0.25em;
+        &__header {
           font-size: $header-size;
-          margin-left: .5em;
+          margin-left: 0.5em;
         }
-        .faq-area{
+      }
+      .faq-area {
+        @include flex-column;
+        .accordion-container {
           @include flex-column;
+          .accordion-question {
+            @include flex-space-between;
+            &__question {
+              font-size: 0.75rem;
+              
+            }
+          }
         }
       }
     }
