@@ -14,7 +14,7 @@
       top: 50%;
       left: 50%;
       transform: translate(-50%, -50%);
-      height: 70%;
+      height: 60%;
       width: 85%;
       border-radius: 0.8em;
       background-color: $white;
@@ -36,8 +36,14 @@
         height: 100svh;
         .accordion-container {
           @include flex-column;
+          &__content{
+            color: $Grayish-purple;
+            font-size: 0.75rem;
+            line-height: 150%;
+            
+          }
           .accordion-question {
-            margin: 0.75em 0;
+            margin: 0 0 0.75em 0;
             padding: 0.5em 0;
             border: none;
             font-family: inherit;
