@@ -17,11 +17,11 @@
     background-size: cover;
   }
   .main-app .faq-accordion {
-    top: 50%;
+    top: 65%;
     left: 50%;
     -webkit-transform: translate(-50%, -50%);
             transform: translate(-50%, -50%);
-    height: 60svh;
+    height: 90svh;
     width: 85%;
     border-radius: 0.8em;
     background-color: hsl(0, 0%, 100%);
@@ -105,7 +105,7 @@
   }
   .main-app .white-area {
     background-color: hsl(275, 62%, 92%);
-    height: 65%;
+    height: 80%;
   }
 }
 @media (min-width: 325px) {

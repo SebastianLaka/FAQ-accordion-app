@@ -11,10 +11,10 @@
       @include image;
     }
     .faq-accordion {
-      top: 50%;
+      top: 65%;
       left: 50%;
       transform: translate(-50%, -50%);
-      height: 60svh;
+      height: 90svh;
       width: 85%;
       border-radius: 0.8em;
       background-color: $white;
@@ -62,7 +62,7 @@
     }
     .white-area {
       background-color: $light-pink;
-      height: 65%;
+      height: 80%;
     }
   }
 }
