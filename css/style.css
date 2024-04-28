@@ -135,7 +135,7 @@
     padding-right: 3.5em;
   }
 }
-@media (min-width: 467px) {
+@media (min-width: 475px) {
   .main-app .faq-accordion {
     max-width: 530px;
   }
@@ -150,5 +150,4 @@
 body {
   min-height: 100svh;
   font-family: "Work Sans", sans-serif;
-  font-size: 1.25rem;
 }/*# sourceMappingURL=style.css.map */

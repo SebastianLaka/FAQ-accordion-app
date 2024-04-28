@@ -2,18 +2,14 @@
 @use "./colors" as *;
 @use "./font" as *;
 @use "./mixin" as *;
-@media (min-width: 467px) {
+@media (min-width: 475px) {
   .main-app {
     .faq-accordion {
       max-width: 530px;
       .faq-area {
-       
         .accordion-container {
           &__content{
-            
-            
            padding-right: .1em;
-            // display: none;
           }
           .accordion-question {
             &__question {
