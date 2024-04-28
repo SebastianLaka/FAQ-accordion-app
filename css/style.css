@@ -7,37 +7,46 @@
 
 @media (min-width: 280px) {
   .main-app {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     height: 100svh;
+    padding: 1em 0;
     position: relative;
   }
   .main-app .graph-area {
-    height: 35%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 40%;
+    z-index: -100;
     background-image: url(../images/background-pattern-mobile.svg);
     background-repeat: no-repeat;
     background-size: cover;
   }
   .main-app .faq-accordion {
-    top: 65%;
-    left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-            transform: translate(-50%, -50%);
-    height: 100svh;
-    width: 85%;
-    border-radius: 0.8em;
-    background-color: hsl(0, 0%, 100%);
-    position: absolute;
-    z-index: 100;
-    padding: 1.25em;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
-    height: 90%;
+    min-height: 40%;
+    width: 85%;
+    border-radius: 0.8em;
+    background-color: hsl(0, 0%, 100%);
+    padding: 1.5em;
   }
   .main-app .faq-accordion .header-area {
     display: -webkit-box;
@@ -46,25 +55,14 @@
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    width: 100%;
-    margin-bottom: 0.25em;
+    margin: 0.25em;
   }
   .main-app .faq-accordion .header-area__header {
     font-size: 2rem;
     margin-left: 0.5em;
   }
   .main-app .faq-accordion .faq-area {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
-    height: 90%;
-    height: 100svh;
+    height: 100%;
   }
   .main-app .faq-accordion .faq-area .accordion-container {
     display: -webkit-box;
@@ -74,15 +72,11 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
-    height: 90%;
   }
   .main-app .faq-accordion .faq-area .accordion-container__content {
     color: hsl(292, 16%, 49%);
     font-size: 0.75rem;
     line-height: 150%;
-    display: none;
   }
   .main-app .faq-accordion .faq-area .accordion-container .accordion-question {
     margin: 0 0 0.75em 0;
@@ -106,10 +100,6 @@
   }
   .main-app .faq-accordion .faq-area .accordion-container .accordion-question__minus-icon {
     display: none;
-  }
-  .main-app .white-area {
-    background-color: hsl(275, 62%, 92%);
-    height: 80%;
   }
 }
 @media (min-width: 325px) {

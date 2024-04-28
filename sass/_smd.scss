@@ -4,43 +4,42 @@
 @use "./mixin" as *;
 @media (min-width: 280px) {
   .main-app {
+    @include flex-center;
     height: 100svh;
+    padding: 1em 0;
     position: relative;
     .graph-area {
-      height: 35%;
+      position: absolute;
+      top: 0;left: 0;
+      width: 100%;
+      height: 40%;
+      z-index: -100;
       @include image;
     }
     .faq-accordion {
-      top: 65%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      height: 100svh;
+      @include flex-center-column;
+      min-height: 40%;
       width: 85%;
       border-radius: 0.8em;
       background-color: $white;
-      position: absolute;
-      z-index: 100;
-      padding: 1.25em;
-      @include flex-column;
+      padding: 1.5em;
       .header-area {
         @include flex-row;
-        width: 100%;
-        margin-bottom: 0.25em;
+        margin: 0.25em;
         &__header {
           font-size: $header-size;
           margin-left: 0.5em;
         }
       }
       .faq-area {
-        @include flex-column;
-        height: 100svh;
+        height: 100%;
         .accordion-container {
           @include flex-column;
-          &__content{
+          &__content {
             color: $Grayish-purple;
             font-size: 0.75rem;
             line-height: 150%;
-            display: none;
+            // display: none;
           }
           .accordion-question {
             margin: 0 0 0.75em 0;
@@ -60,10 +59,6 @@
         }
       }
     }
-    .white-area {
-      background-color: $light-pink;
-      height: 80%;
-    }
   }
 }
 @media (min-width: 325px) {
@@ -73,8 +68,8 @@
         .accordion-container {
           .accordion-question {
             &__question {
-              font-size: .95rem;
-              padding-right: .5em;
+              font-size: 0.95rem;
+              padding-right: 0.5em;
             }
           }
         }
@@ -90,7 +85,6 @@
           .accordion-question {
             &__question {
               font-size: 1rem;
-              
             }
           }
         }
@@ -103,7 +97,7 @@
     .faq-accordion {
       .faq-area {
         .accordion-container {
-          &__content{
+          &__content {
             color: $Grayish-purple;
             font-size: 0.875rem;
           }
