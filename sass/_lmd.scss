@@ -4,19 +4,24 @@
 @use "./mixin" as *;
 @media (min-width: 475px) {
   .main-app {
+    height: 100lvh;
     .faq-accordion {
-      max-width: 530px;
+      padding: 2em 1em;
+      top: 50%;
+      max-width: 560px;
       .faq-area {
-        .accordion-container {
-          &__content{
-           padding-right: .1em;
-          }
+        padding: 2em 1em;
           .accordion-question {
             &__question {
               font-size: 1rem;
               padding-right: 3.5em;
             }
           }
+          .accordion-container {
+            &__content{
+             padding-right: .1em;
+             margin-bottom: 1.75em;
+            }
         }
       }
     }
