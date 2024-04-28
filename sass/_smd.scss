@@ -34,7 +34,7 @@
       .faq-area {
         height: 100%;
         .accordion-container {
-          @include flex-column;
+          @include flex-center-column;
           &__content {
             color: $Grayish-purple;
             font-size: 0.75rem;
