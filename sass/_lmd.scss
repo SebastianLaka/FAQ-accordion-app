@@ -6,11 +6,8 @@
   .main-app {
     height: 100lvh;
     .faq-accordion {
-      padding: 2em 1em;
-      top: 50%;
       max-width: 560px;
       .faq-area {
-        padding: 2em 1em;
           .accordion-question {
             &__question {
               font-size: 1rem;

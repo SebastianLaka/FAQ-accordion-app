@@ -134,12 +134,7 @@
     height: 100lvh;
   }
   .main-app .faq-accordion {
-    padding: 2em 1em;
-    top: 50%;
     max-width: 560px;
-  }
-  .main-app .faq-accordion .faq-area {
-    padding: 2em 1em;
   }
   .main-app .faq-accordion .faq-area .accordion-question__question {
     font-size: 1rem;
