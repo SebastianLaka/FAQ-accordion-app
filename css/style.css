@@ -80,6 +80,7 @@
     color: hsl(292, 16%, 49%);
     font-size: 0.75rem;
     line-height: 150%;
+    display: none;
   }
   .main-app .faq-accordion .faq-area .accordion-container .accordion-question {
     margin: 0 0 0.75em 0;
@@ -135,6 +136,9 @@
 @media (min-width: 475px) {
   .main-app {
     height: 100lvh;
+  }
+  .main-app .graph-area {
+    background-image: url(../images/background-pattern-desktop.svg);
   }
   .main-app .faq-accordion {
     max-width: 560px;

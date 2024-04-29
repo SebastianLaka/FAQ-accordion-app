@@ -1,7 +1,10 @@
-@mixin image{
+@mixin image-mobile{
     background-image: url(../images/background-pattern-mobile.svg);
     background-repeat: no-repeat;
     background-size: cover; 
+}
+@mixin image-desktop{
+    background-image: url(../images/background-pattern-desktop.svg);
 }
 @mixin flex-column{
     display: flex;

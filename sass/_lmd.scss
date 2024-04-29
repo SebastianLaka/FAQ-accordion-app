@@ -5,6 +5,9 @@
 @media (min-width: 475px) {
   .main-app {
     height: 100lvh;
+    .graph-area{
+      @include image-desktop;
+    }
     .faq-accordion {
       max-width: 560px;
       .faq-area {
