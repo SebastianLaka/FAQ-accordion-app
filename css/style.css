@@ -105,6 +105,12 @@
   .main-app .faq-accordion .faq-area .accordion-container .accordion-question__minus-icon {
     display: none;
   }
+  .main-app .faq-accordion .faq-area .accordion-container .accordion-question .show-answer {
+    display: block;
+  }
+  .main-app .faq-accordion .faq-area .accordion-container .change-icon {
+    display: block;
+  }
 }
 @media (min-width: 325px) {
   .main-app .faq-accordion .faq-area .accordion-container .accordion-question__question {
@@ -150,6 +156,9 @@
   .main-app .faq-accordion .faq-area .accordion-container__content {
     padding-right: 0.1em;
     margin-bottom: 1.75em;
+  }
+  .main-app .faq-accordion .faq-area .accordion-container .show-answer {
+    display: block;
   }
 }
 body {

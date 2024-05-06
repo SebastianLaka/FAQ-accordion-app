@@ -55,7 +55,14 @@
             &__minus-icon {
               display: none;
             }
+            .show-answer {
+              display: block;
+            }
           }
+          .change-icon {
+            display: block;
+          }
+         
         }
       }
     }

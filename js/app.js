@@ -1,14 +1,14 @@
 "use strict";
-
 const accordionItem = document.querySelectorAll(".accordion-question");
-const accordionContent = document.querySelectorAll(
-  ".accordion-container__content"
-);
-const plusIcon = document.querySelectorAll(".accordion-question__plus-icon");
-const plusMinus = document.querySelectorAll(".accordion-question__minus-icon");
+const accordionContent = document.querySelector(".accordion-container__content");
 
 accordionItem.forEach((accItem) => {
-  accItem.addEventListener("click", () => {
-    
-  });
+  accItem.addEventListener("click", (e) => {
+   const target = e.currentTarget
+   console.log(target);
+    // const minusIcon = document.querySelector(".accordion-question__minus-icon");
+    // const plusIcon = document.querySelector(".accordion-question__plus-icon");
+    accordionContent.classList.toggle('show-answer')
+   
+  }, true);
 });
