@@ -82,6 +82,9 @@
     line-height: 150%;
     display: none;
   }
+  .main-app .faq-accordion .faq-area .accordion-container .show-answer {
+    display: block;
+  }
   .main-app .faq-accordion .faq-area .accordion-container .accordion-question {
     margin: 0 0 0.75em 0;
     padding: 0.5em 0;
@@ -105,10 +108,7 @@
   .main-app .faq-accordion .faq-area .accordion-container .accordion-question__minus-icon {
     display: none;
   }
-  .main-app .faq-accordion .faq-area .accordion-container .accordion-question .show-answer {
-    display: block;
-  }
-  .main-app .faq-accordion .faq-area .accordion-container .change-icon {
+  .main-app .faq-accordion .faq-area .accordion-container .accordion-question .change-icon {
     display: block;
   }
 }
