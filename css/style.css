@@ -108,7 +108,10 @@
   .main-app .faq-accordion .faq-area .accordion-container .accordion-question__minus-icon {
     display: none;
   }
-  .main-app .faq-accordion .faq-area .accordion-container .accordion-question .change-icon {
+  .main-app .faq-accordion .faq-area .accordion-container .accordion-question .remove-icon {
+    display: none;
+  }
+  .main-app .faq-accordion .faq-area .accordion-container .accordion-question .show-icon {
     display: block;
   }
 }

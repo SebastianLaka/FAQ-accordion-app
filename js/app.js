@@ -7,7 +7,8 @@ accordionItem.forEach((accItem) => {
    console.log(target);
    if(target.classList.contains('accordion-question')){
     target.nextElementSibling.classList.toggle('show-answer');
+    target.lastElementChild.classList.toggle('show-icon')
+    target.children[1].classList.toggle('remove-icon')
    }
   });
 });
-
