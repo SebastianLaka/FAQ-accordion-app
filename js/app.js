@@ -1,6 +1,5 @@
 "use strict";
 const accordionItem = document.querySelectorAll(".accordion-question");
-
 accordionItem.forEach((accItem) => {
   accItem.addEventListener("click", (e) => {
    const target = e.currentTarget;

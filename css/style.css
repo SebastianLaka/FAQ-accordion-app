@@ -104,6 +104,11 @@
   }
   .main-app .faq-accordion .faq-area .accordion-container .accordion-question__question {
     font-size: 0.75rem;
+    -webkit-transition: color 0.3s;
+    transition: color 0.3s;
+  }
+  .main-app .faq-accordion .faq-area .accordion-container .accordion-question__question:hover {
+    color: hsl(281, 83%, 54%);
   }
   .main-app .faq-accordion .faq-area .accordion-container .accordion-question__minus-icon {
     display: none;
